@@ -1,0 +1,44 @@
+! == GOOGLE TRENDING CLEANUP ==
+! Hide Google Trending Search (on Home Page)
+google.com##.JwzvB
+! Hide Google Trending Search Header (on Search Page)
+google.com##.ynRric
+! Hide list items containing the trending icon (on Search Page)
+google.com##.sbct:has(.sb33)
+! Clean up remaining margins in the suggestion box (on Search Page)
+google.com##.ftihzf > .ynRric:style(margin: 0 !important; padding: 0 !important;)
+
+! == BLOCK SITES ENTIRELY (HIDES HTML) ==
+
+! Broadcasters / News
+bbc.co.uk, bbc.com, news.sky.com, itv.com, channel4.com, gbnews.com##html
+
+! Local UK News
+edp24.co.uk, eveningnews24.co.uk, nottinghampost.com##html
+
+! National UK News
+theguardian.com, thetimes.com, telegraph.co.uk, dailymail.co.uk, thesun.co.uk, mirror.co.uk, express.co.uk, metro.co.uk, standard.co.uk, dailystar.co.uk, inews.co.uk, ft.com, cityam.com, dailyrecord.co.uk##html
+
+! International News & Independent Media
+aljazeera.com, dw.com, cnn.com, reuters.com, bloomberg.com, foxnews.com, nytimes.com, politico.eu, politico.com, novaramedia.com##html
+
+! Social Media (General)
+bsky.app, facebook.com, m.facebook.com, instagram.com, letterboxd.com, pinterest.com, uk.pinterest.com##html
+
+! Twitter / X & Nitter Instances
+twitter.com, x.com, nitter.net, nitter.catsarch.com, nitter.tiekoetter.com, xcancel.com, nitter.space, lightbrd.com, nuku.trabun.org, nitter.privacyredirect.com, nitter.poast.org##html
+
+! YouTube & Piped/Invidious Frontends
+youtube.com, yewtu.be, inv.nadeko.net, invidious.nerdvpn.de, pipedapi.kavin.rocks, pipedapi.leptons.xyz, pipedapi.nosebs.ru, pipedapi-libre.kavin.rocks, piped-api.privacy.com.de, pipedapi.adminforge.de, api.piped.yt, pipedapi.drgns.space, pipedapi.owo.si, pipedapi.ducks.party, piped-api.codespace.cz, pipedapi.reallyaweso.me, api.piped.private.coffee, pipedapi.darkness.services, pipedapi.orangenet.cc, poketube.fun, tube.cadence.moe, freetubeapp.io, bocchilorenzo.github.io##html
+
+! Reddit & Frontends
+reddit.com, old.reddit.com, lr.vern.cc, xeddit.com, jpf-reddit.netlify.app, kddit.kalli.st, troddit.com##html
+
+! Twitch, TikTok & ProxiTok Instances
+twitch.tv, tiktok.com, proxitok.pabloferreiro.es, proxitok.pussthecat.org, proxitok.esmailelbob.xyz, proxitok.privacydev.net, tok.artemislena.eu, tok.adminforge.de, tik.hostux.net, tt.vern.cc, cringe.whatever.social, proxitok.lunar.icu, proxitok.privacy.com.de, cringe.whateveritworks.org, cringe.seitan-ayoub.lol, proxitok.kyun.li, cringe.datura.network, tt.opnxng.com, proxitok.tinfoil-hat.net, tiktok.wpme.pl, proxitok.r4fo.com, proxitok.belloworld.it, tok.habedieeh.re##html
+
+! Tumblr & Priviblur Instances
+tumblr.com, pb.bloat.cat, tb.opnxng.com, priviblur.pussthecat.org, priviblur.thebunny.zone, priviblur.canine.tools, pb.cleberg.net, tumblr.nerdvpn.de, pb.proxik.cloud, pb.foobar.vip, priviblur.privadency.com##html
+
+! Gaming
+blizzard.com##html
