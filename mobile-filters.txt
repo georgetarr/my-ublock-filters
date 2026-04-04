@@ -1,44 +1,147 @@
-! == GOOGLE TRENDING CLEANUP ==
+! == GOOGLE ==
+! Hide AI Search button (on Home Page)
+google.com##.xOchs
 ! Hide Google Trending Search (on Home Page)
 google.com##.JwzvB
 ! Hide Google Trending Search Header (on Search Page)
 google.com##.ynRric
 ! Hide list items containing the trending icon (on Search Page)
 google.com##.sbct:has(.sb33)
-! Clean up remaining margins in the suggestion box (on Search Page)
-google.com##.ftihzf > .ynRric:style(margin: 0 !important; padding: 0 !important;)
 
-! == BLOCK SITES ENTIRELY (HIDES HTML) ==
+! == UK BROADCAST & NATIONAL NEWS ==
+bbc.co.uk##html
+bbc.com##html
+news.sky.com##html
+itv.com/news##html
+channel4.com/news##html
+gbnews.com##html
 
-! Broadcasters / News
-bbc.co.uk, bbc.com, news.sky.com, itv.com, channel4.com, gbnews.com##html
+! == UK REGIONAL NEWS ==
+edp24.co.uk##html
+eveningnews24.co.uk##html
+nottinghampost.com##html
 
-! Local UK News
-edp24.co.uk, eveningnews24.co.uk, nottinghampost.com##html
+! == UK NEWSPAPERS & TABLOIDS ==
+theguardian.com##html
+thetimes.com##html
+telegraph.co.uk##html
+dailymail.co.uk##html
+thesun.co.uk##html
+mirror.co.uk##html
+express.co.uk##html
+metro.co.uk##html
+standard.co.uk##html
+dailystar.co.uk##html
+inews.co.uk##html
+ft.com##html
+cityam.com##html
+dailyrecord.co.uk##html
 
-! National UK News
-theguardian.com, thetimes.com, telegraph.co.uk, dailymail.co.uk, thesun.co.uk, mirror.co.uk, express.co.uk, metro.co.uk, standard.co.uk, dailystar.co.uk, inews.co.uk, ft.com, cityam.com, dailyrecord.co.uk##html
+! == INTERNATIONAL NEWS & POLITICS ==
+aljazeera.com##html
+dw.com##html
+cnn.com##html
+reuters.com##html
+bloomberg.com##html
+foxnews.com##html
+nytimes.com##html
+politico.eu##html
+politico.com##html
+novaramedia.com##html
 
-! International News & Independent Media
-aljazeera.com, dw.com, cnn.com, reuters.com, bloomberg.com, foxnews.com, nytimes.com, politico.eu, politico.com, novaramedia.com##html
+! == SOCIAL MEDIA ==
+bsky.app##html
+facebook.com##html
+m.facebook.com##html
+instagram.com##html
+letterboxd.com##html
+pinterest.com##html
+uk.pinterest.
+twitch.tv##html
 
-! Social Media (General)
-bsky.app, facebook.com, m.facebook.com, instagram.com, letterboxd.com, pinterest.com, uk.pinterest.com##html
+! == TWITTER & NITTER INSTANCES ==
+twitter.com##html
+x.com##html
+nitter.net##html
+nitter.catsarch.com##html
+nitter.tiekoetter.com##html
+xcancel.com##html
+nitter.space##html
+lightbrd.com##html
+nuku.trabun.org##html
+nitter.privacyredirect.com##html
+nitter.poast.org##html
 
-! Twitter / X & Nitter Instances
-twitter.com, x.com, nitter.net, nitter.catsarch.com, nitter.tiekoetter.com, xcancel.com, nitter.space, lightbrd.com, nuku.trabun.org, nitter.privacyredirect.com, nitter.poast.org##html
+! == YOUTUBE & INVIDIOUS/PIPED INSTANCES ==
+youtube.com##html
+yewtu.be##html
+inv.nadeko.net##html
+invidious.nerdvpn.de##html
+pipedapi.kavin.rocks##html
+pipedapi.leptons.xyz##html
+pipedapi.nosebs.ru##html
+pipedapi-libre.kavin.rocks##html
+piped-api.privacy.com.de##html
+pipedapi.adminforge.de##html
+api.piped.yt##html
+pipedapi.drgns.space##html
+pipedapi.owo.si##html
+pipedapi.ducks.party##html
+piped-api.codespace.cz##html
+pipedapi.reallyaweso.me##html
+api.piped.private.coffee##html
+pipedapi.darkness.services##html
+pipedapi.orangenet.cc##html
+poketube.fun##html
+tube.cadence.moe##html
+freetubeapp.io##html
+bocchilorenzo.github.io/invuedious##html
 
-! YouTube & Piped/Invidious Frontends
-youtube.com, yewtu.be, inv.nadeko.net, invidious.nerdvpn.de, pipedapi.kavin.rocks, pipedapi.leptons.xyz, pipedapi.nosebs.ru, pipedapi-libre.kavin.rocks, piped-api.privacy.com.de, pipedapi.adminforge.de, api.piped.yt, pipedapi.drgns.space, pipedapi.owo.si, pipedapi.ducks.party, piped-api.codespace.cz, pipedapi.reallyaweso.me, api.piped.private.coffee, pipedapi.darkness.services, pipedapi.orangenet.cc, poketube.fun, tube.cadence.moe, freetubeapp.io, bocchilorenzo.github.io##html
+! == REDDIT & REDDIT FRONTENDS ==
+reddit.com##html
+old.reddit.com##html
+lr.vern.cc##html
+xeddit.com##html
+jpf-reddit.netlify.app##html
+kddit.kalli.st##html
+troddit.com##html
 
-! Reddit & Frontends
-reddit.com, old.reddit.com, lr.vern.cc, xeddit.com, jpf-reddit.netlify.app, kddit.kalli.st, troddit.com##html
+! == TIKTOK & PROXITOK INSTANCES ==
+tiktok.com##html
+proxitok.pabloferreiro.es##html
+proxitok.pussthecat.org##html
+proxitok.esmailelbob.xyz##html
+proxitok.privacydev.net##html
+tok.artemislena.eu##html
+tok.adminforge.de##html
+tik.hostux.net##html
+tt.vern.cc##html
+cringe.whatever.social##html
+proxitok.lunar.icu##html
+proxitok.privacy.com.de##html
+cringe.whateveritworks.org##html
+cringe.seitan-ayoub.lol##html
+proxitok.kyun.li##html
+cringe.datura.network##html
+tt.opnxng.com##html
+proxitok.tinfoil-hat.net##html
+tiktok.wpme.pl##html
+proxitok.r4fo.com##html
+proxitok.belloworld.it##html
+tok.habedieeh.re##html
 
-! Twitch, TikTok & ProxiTok Instances
-twitch.tv, tiktok.com, proxitok.pabloferreiro.es, proxitok.pussthecat.org, proxitok.esmailelbob.xyz, proxitok.privacydev.net, tok.artemislena.eu, tok.adminforge.de, tik.hostux.net, tt.vern.cc, cringe.whatever.social, proxitok.lunar.icu, proxitok.privacy.com.de, cringe.whateveritworks.org, cringe.seitan-ayoub.lol, proxitok.kyun.li, cringe.datura.network, tt.opnxng.com, proxitok.tinfoil-hat.net, tiktok.wpme.pl, proxitok.r4fo.com, proxitok.belloworld.it, tok.habedieeh.re##html
+! == TUMBLR & PRIVIBLUR INSTANCES ==
+tumblr.com##html
+pb.bloat.cat##html
+tb.opnxng.com##html
+priviblur.pussthecat.org##html
+priviblur.thebunny.zone##html
+priviblur.canine.tools##html
+pb.cleberg.net##html
+tumblr.nerdvpn.de##html
+pb.proxik.cloud##html
+pb.foobar.vip##html
+priviblur.privadency.com##html
 
-! Tumblr & Priviblur Instances
-tumblr.com, pb.bloat.cat, tb.opnxng.com, priviblur.pussthecat.org, priviblur.thebunny.zone, priviblur.canine.tools, pb.cleberg.net, tumblr.nerdvpn.de, pb.proxik.cloud, pb.foobar.vip, priviblur.privadency.com##html
-
-! Gaming
+! == GAMING ==
 blizzard.com##html
