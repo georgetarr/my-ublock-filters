@@ -12,8 +12,8 @@ google.com##.sbct:has(.sb33)
 bbc.co.uk##html
 bbc.com##html
 news.sky.com##html
-itv.com/news##html
-channel4.com/news##html
+itv.com##:matches-path(/news) html
+channel4.com##:matches-path(/news) html
 gbnews.com##html
 
 ! == UK REGIONAL NEWS ==
