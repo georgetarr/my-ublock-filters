@@ -1,0 +1,53 @@
+! removes "sign in with google" prompts on all websites
+||accounts.google.com/gsi/iframe
+
+! x.com -> nitter.net
+||x.com^$doc,uritransform=/x\.com/nitter.net/
+
+! https://www.google.com
+
+! ai mode button on search bar
+www.google.com##.plR5qb
+! ai mode button on navigation bar on search results page
+www.google.com##.olrp5b
+
+! https://www.reddit.com
+
+! subreddits visited in side bar
+www.reddit.com###recent-communities-section
+! advertise on reddit button (top right)
+www.reddit.com###advertise-button
+! remove trending in search drop down
+www.reddit.com###reddit-trending-searches-partial-container
+! hide top left panel of home explore etc etc
+www.reddit.com##left-nav-top-section
+! hide line above home explore etc etc panel
+www.reddit.com##hr.border-neutral-border-weak.my-sm.w-100:nth-of-type(1)
+! hide games in sidebar
+www.reddit.com##nav.z-2 > faceplate-tracker:nth-child(3)
+! hide separator under games in sidebar
+www.reddit.com##hr.border-neutral-border-weak.my-sm.w-100:nth-of-type(2)
+! hide recent posts in right side bar
+reddit.com##aside.recent-posts-right-rail
+
+! https://www.facebook.com
+
+! remove reels from top nav bar
+www.facebook.com##li.x1gz44f.x13fj5qh.x1awlv9s.x1l38jg0.x1hxoosp.xmlsiyf.x1iyjqo2:nth-of-type(2)
+! remove reels from left sidebar
+www.facebook.com##li.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-li:nth-of-type(7)
+! remove reels from main feed
+www.facebook.com##.xquyuld.x10wlt62.x6ikm8r.xh8yej3.x9f619.xau1kf4.x1vsv7so.x1dmpuos.xw5cjc7.x1jx94hy.x1ja2u2z.x1n2onr6 .xh8yej3.x1n2onr6.x78zum5.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-div
+! remove entertainment from main menu
+www.facebook.com##div.xexx8yu.xx6bls6.x193iq5w.x2lah0s.xdt5ytf.x78zum5.x9f619.x1ja2u2z.x1n2onr6:nth-of-type(2)
+
+! https://www.instagram.com
+
+! remove reels from left sidebar
+www.instagram.com##.xc26acl.xh8yej3.x1iyjqo2 > div:nth-of-type(2)
+! remove discovery from left sidebar
+www.instagram.com##.xc26acl.xh8yej3.x1iyjqo2 > div:nth-of-type(5)
+! remove reels from bottom navbar
+www.instagram.com##.xh8yej3.xaw8158.x78zum5 > div:nth-of-type(3)
+! remove discovery from bottom navbar
+www.instagram.com##.xh8yej3.xaw8158.x78zum5 > div:nth-of-type(2)
